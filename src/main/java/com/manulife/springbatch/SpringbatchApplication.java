@@ -1,0 +1,16 @@
+package com.manulife.springbatch;
+
+import com.manulife.springbatch.tool.FileHandleUtil;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringbatchApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbatchApplication.class, args);
+		FileHandleUtil.init();
+		System.out.println("=====success======");
+	}
+
+}

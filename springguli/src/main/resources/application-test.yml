@@ -1,0 +1,5 @@
+
+resource:
+  imageServer: http://testimage.df.com
+  emailServer: sftptest.qq.com
+

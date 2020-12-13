@@ -1,0 +1,12 @@
+
+server.port=8081
+server.servlet.context-path=/guigu/v1
+spring.servlet.multipart.max-request-size=300MB
+spring.servlet.multipart.max-file-size=300MB
+
+spring.jackson.date-format=yyyy-MM-dd HH:mm:ss
+spring.jackson.time-zone=GMT+8
+
+spring.mvc.date-format=yyyy-MM-dd
+resource.imageServer=http://image.df.com
+resource.emailServer=sftp.qq.com

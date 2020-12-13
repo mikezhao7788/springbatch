@@ -1,0 +1,4 @@
+resource:
+  imageServer: http://devimage.df.com
+  emailServer: sftpdev.qq.com
+

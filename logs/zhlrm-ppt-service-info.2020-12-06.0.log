@@ -1,0 +1,18 @@
+2020-12-06 16:28:00.690  INFO 1904 --- [restartedMain] com.manulife.guli.GuliApplication : Starting GuliApplication on RCAN1B88 with PID 1904 (D:\myspringbatch\springbatch\springguli\target\classes started by Administrator in D:\myspringbatch\springbatch)
+2020-12-06 16:28:00.690  INFO 1904 --- [restartedMain] com.manulife.guli.GuliApplication : The following profiles are active: test
+2020-12-06 16:28:00.957  INFO 1904 --- [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8081 (http)
+2020-12-06 16:28:00.958  INFO 1904 --- [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2020-12-06 16:28:00.958  INFO 1904 --- [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-12-06 16:28:00.979  INFO 1904 --- [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/guigu/v1] : Initializing Spring embedded WebApplicationContext
+2020-12-06 16:28:00.979  INFO 1904 --- [restartedMain] org.springframework.web.context.ContextLoader : Root WebApplicationContext: initialization completed in 287 ms
+2020-12-06 16:28:00.993  INFO 1904 --- [restartedMain] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-12-06 16:28:00.994  INFO 1904 --- [restartedMain] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-12-06 16:28:00.994  INFO 1904 --- [restartedMain] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'formContentFilter' to: [/*]
+2020-12-06 16:28:00.994  INFO 1904 --- [restartedMain] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2020-12-06 16:28:00.994  INFO 1904 --- [restartedMain] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'myFilter' to urls: [/*]
+2020-12-06 16:28:00.994  INFO 1904 --- [restartedMain] org.springframework.boot.web.servlet.ServletRegistrationBean : Servlet dispatcherServlet mapped to [/]
+2020-12-06 16:28:01.095  INFO 1904 --- [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-06 16:28:01.158  INFO 1904 --- [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2020-12-06 16:28:01.176  INFO 1904 --- [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8081 (http) with context path '/guigu/v1'
+2020-12-06 16:28:01.177  INFO 1904 --- [restartedMain] com.manulife.guli.GuliApplication : Started GuliApplication in 0.569 seconds (JVM running for 1096.989)
+2020-12-06 16:28:01.179  INFO 1904 --- [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
